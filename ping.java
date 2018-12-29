@@ -10,7 +10,7 @@ class Ideone
 		// your code goes here
 	Scanner in=new Scanner(System.in);
 int n,i,j,t;
-System.out.println("ENTER THE NO.OF ARRAY ELEMENTS:");
+System.out.println("ENTER THE NO.OF ARRAY ELEMENTS:\n");
 n=in.nextInt();
 int a[]=new int[n];
 System.out.println("ENTER THE ARRAY ELEMENTS:");
