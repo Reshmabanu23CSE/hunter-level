@@ -8,31 +8,21 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		// your code goes here
-		
-			int n;
-		Scanner in=new Scanner(System.in);
-		n=in.nextInt();
-		int l = String.valueOf(n).length();
-		int c=1,t=l;
-		int[] a=new int[l];
-		while(n!=0)
-		{
-			a[t-1]=n%10;
-			t--;
-			n=n/10;
-		}
-		for(int i=0;i<l-1;i++)
-		{
-			if((a[i]+a[i+1])<27)
-			{
-				for(int j=i+2;j<l-1;j++)
-				{
-					if((a[i]+a[i+1])<27)
-					c++;
-				}
-			}
-		}
-		System.out.println(c);
-	}
+
+	    Scanner in = new Scanner(System.in);
+    String s = in.next();
+    int n = s.length();
+    int i,j;
+    int count=1;
+    for(i=0;i<n;i++){
+       for(j=1;j<=(n-i);j++){
+           String a = s.substring(i,i+j);
+           Integer m = Integer.valueOf(a);
+           if(m>9 && m<27){
+               count+=1;
+           }
+       } 
+    }
+        System.out.println(count);
+}
 }
