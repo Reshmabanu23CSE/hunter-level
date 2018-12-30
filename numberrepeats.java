@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 
 
- class numberrepeatsfirst
+ class number
 {
 	static void tofind(int[] arr)
 	{
