@@ -13,7 +13,7 @@ import java.util.*;
     }
  
     
-    private void ideone(String str, int l, int r)
+    private void permute(String str, int l, int r)
     {
         if (l == r)
             System.out.println(str);
