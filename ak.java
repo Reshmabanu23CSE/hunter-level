@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-class uniq {
+class unique {
      public static void main(String aa[]){
      char c;
      int n;
