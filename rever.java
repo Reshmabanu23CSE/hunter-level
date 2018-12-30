@@ -3,9 +3,9 @@ import java.math.*;
 import java.lang.*;
 
 
- class revstr
+ class rev
 {
-	static void reverse(String a)
+	static void rev(String a)
 	{
 		char[] arr=a.toCharArray();
 		int i=0;int j=arr.length-1;
@@ -38,11 +38,11 @@ import java.lang.*;
 			  temp+=stringarr[i];
 			if(stringarr[i]==' ')
 			{
-				reverse(temp);
+				rev(temp);
 				temp="";
 			}
 			if(i==leng-1)
-				reverse(temp);
+				rev(temp);
 			i++;		
 
 		}				
