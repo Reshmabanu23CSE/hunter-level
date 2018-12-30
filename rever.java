@@ -3,7 +3,7 @@ import java.math.*;
 import java.lang.*;
 
 
- class ideone
+ class revstr
 {
 	static void reverse(String a)
 	{
