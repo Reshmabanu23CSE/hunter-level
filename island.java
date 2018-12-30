@@ -1,6 +1,6 @@
 import java.util.*;
-class island{
-    public static int islandcheck(int ar[][])
+class ideone{
+    public static int ideonecheck(int ar[][])
     {
          if(ar==null)
         {
@@ -98,6 +98,6 @@ class island{
             
             
         }
-        System.out.print(islandcheck(a));
+        System.out.print(ideonecheck(a));
     }
 }
